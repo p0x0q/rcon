@@ -30,7 +30,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: p0x0q/laravel-quick-setup
+          images: p0x0q/rcon
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
